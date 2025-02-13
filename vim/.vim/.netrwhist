@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =6
+let g:netrw_dirhist_6='/mnt/d/log/robokit-Debug-20241226160922'
+let g:netrw_dirhist_5='/home/wangl/.vim'
+let g:netrw_dirhist_4='/home/wangl'
+let g:netrw_dirhist_3='/home/wangl/proto'
+let g:netrw_dirhist_2='/home/wangl'
+let g:netrw_dirhist_1='/home/wangl/.vim'
+let g:netrw_dirhist_0='/home/wanglu/.vim'
+let g:netrw_dirhist_9='/home/wanglu/.ssh'
+let g:netrw_dirhist_8='/home/wanglu/.local'
+let g:netrw_dirhist_7='/home/wanglu'
