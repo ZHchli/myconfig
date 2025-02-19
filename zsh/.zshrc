@@ -88,8 +88,15 @@ ZSH_THEME="robbyrussell"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git zsh-autosuggestions  zsh-z)
+plugins=(git zsh-autosuggestions  zsh-z vi-mode)
 
+#vi-mode
+#####
+VI_MODE_SET_CURSOR=true
+VI_MODE_CURSOR_NORMAL=2
+VI_MODE_CURSOR_VISUAL=6
+VI_MODE_CURSOR_INSERT=6
+VI_MODE_CURSOR_OPPEND=0
 source $ZSH/oh-my-zsh.sh
 
 eval "$(oh-my-posh init zsh --config ~/.oh-my-zsh/custom/themes/catppuccin_frappe.omp.json)"
