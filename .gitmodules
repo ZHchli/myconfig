@@ -1,2 +1,13 @@
 [submodule ".config/nvim"]
+        path = .config/nvim
 	url = https://github.com/LazyVim/starter
+[submodule "vim/.vim/plugged/fzf"]
+	path = vim/.vim/plugged/fzf
+	url = https://github.com/junegunn/fzf.git
+
+[submodule "vim/.vim/plugged/fzf.vim"]
+	path = vim/.vim/plugged/fzf.vim
+	url = https://github.com/junegunn/fzf.vim.git
+[submodule "zsh/.oh-my-zsh/custom/plugins/zsh-autosuggestions"]
+	path = zsh/.oh-my-zsh/custom/plugins/zsh-autosuggestions
+	url = https://github.com/zsh-users/zsh-autosuggestions
