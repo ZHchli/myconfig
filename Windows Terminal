@@ -1,0 +1,185 @@
+{
+    "$help": "https://aka.ms/terminal-documentation",
+    "$schema": "https://aka.ms/terminal-profiles-schema",
+    "actions": 
+    [
+        {
+            "command": "paste",
+            "id": "User.paste",
+            "keys": "ctrl+v"
+        },
+        {
+            "command": 
+            {
+                "action": "copy",
+                "singleLine": false
+            },
+            "id": "User.copy.644BA8F2",
+            "keys": "ctrl+c"
+        },
+        {
+            "command": "unbound",
+            "keys": "ctrl+shift+w"
+        },
+        {
+            "command": "find",
+            "id": "User.find",
+            "keys": "ctrl+shift+f"
+        },
+        {
+            "command": "closeWindow",
+            "id": "User.closeWindow",
+            "keys": "alt+f4"
+        },
+        {
+            "command": "closePane",
+            "id": "User.closePane",
+            "keys": "alt+shift+w"
+        }
+    ],
+    "copyFormatting": "none",
+    "copyOnSelect": false,
+    "defaultProfile": "{4ac2e77b-9dac-50fa-9c00-39e6b455b32b}",
+    "newTabMenu": 
+    [
+        {
+            "type": "remainingProfiles"
+        }
+    ],
+    "profiles": 
+    {
+        "defaults": 
+        {
+            "colorScheme": "Serendipity Sunset",
+            "font": 
+            {
+                "face": "CodeNewRoman Nerd Font"
+            },
+            "opacity": 90
+        },
+        "list": 
+        [
+            {
+                "guid": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
+                "hidden": false,
+                "name": "PowerShell",
+                "source": "Windows.Terminal.PowershellCore"
+            },
+            {
+                "guid": "{4ac2e77b-9dac-50fa-9c00-39e6b455b32b}",
+                "hidden": false,
+                "name": "Ubuntu-20.04",
+                "source": "Windows.Terminal.Wsl"
+            },
+            {
+                "guid": "{dfa94da4-0437-5b2b-a236-3d855c30dca5}",
+                "hidden": false,
+                "name": "Developer Command Prompt for VS 2022",
+                "source": "Windows.Terminal.VisualStudio"
+            },
+            {
+                "guid": "{86be8fbf-0d53-52b5-89b8-de7d6af1285e}",
+                "hidden": false,
+                "name": "Developer PowerShell for VS 2022",
+                "source": "Windows.Terminal.VisualStudio"
+            },
+            {
+                "guid": "{66a8363f-e0e8-58fe-aec7-cbac928f9547}",
+                "hidden": false,
+                "name": "Ubuntu2404",
+                "source": "Windows.Terminal.Wsl"
+            },
+            {
+                "guid": "{16208362-94fc-5b1f-a491-5b2624d5ab56}",
+                "hidden": true,
+                "name": "Visual Studio Debug Console",
+                "source": "VSDebugConsole"
+            },
+            {
+                "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
+                "hidden": false,
+                "name": "Command Prompt"
+            },
+            {
+                "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+                "hidden": false,
+                "name": "Windows PowerShell"
+            }
+        ]
+    },
+    "schemes": 
+    [
+        {
+            "background": "#161719",
+            "black": "#000000",
+            "blue": "#85BEFD",
+            "brightBlack": "#000000",
+            "brightBlue": "#96CBFE",
+            "brightCyan": "#85BEFD",
+            "brightGreen": "#94FA36",
+            "brightPurple": "#B9B6FC",
+            "brightRed": "#FD5FF1",
+            "brightWhite": "#E0E0E0",
+            "brightYellow": "#F5FFA8",
+            "cursorColor": "#D0D0D0",
+            "cyan": "#85BEFD",
+            "foreground": "#C5C8C6",
+            "green": "#87C38A",
+            "name": "Atom",
+            "purple": "#B9B6FC",
+            "red": "#FD5FF1",
+            "selectionBackground": "#444444",
+            "white": "#E0E0E0",
+            "yellow": "#FFD7B1"
+        },
+        {
+            "background": "#272938",
+            "black": "#363847",
+            "blue": "#709BBD",
+            "brightBlack": "#6B6D7C",
+            "brightBlue": "#709BBD",
+            "brightCyan": "#A0B6E8",
+            "brightGreen": "#AAC9D4",
+            "brightPurple": "#A392DC",
+            "brightRed": "#D1918F",
+            "brightWhite": "#DEE0EF",
+            "brightYellow": "#EDD5D6",
+            "cursorColor": "#AAC9D4",
+            "cyan": "#A0B6E8",
+            "foreground": "#DEE0EF",
+            "green": "#AAC9D4",
+            "name": "Serendipity Sunset",
+            "purple": "#A392DC",
+            "red": "#D1918F",
+            "selectionBackground": "#A392DC",
+            "white": "#DEE0EF",
+            "yellow": "#EDD5D6"
+        },
+        {
+            "background": "#303446",
+            "black": "#51576D",
+            "blue": "#8CAAEE",
+            "brightBlack": "#626880",
+            "brightBlue": "#8CAAEE",
+            "brightCyan": "#81C8BE",
+            "brightGreen": "#A6D189",
+            "brightPurple": "#F4B8E4",
+            "brightRed": "#E78284",
+            "brightWhite": "#A5ADCE",
+            "brightYellow": "#E5C890",
+            "cursorColor": "#F2D5CF",
+            "cyan": "#81C8BE",
+            "foreground": "#C6D0F5",
+            "green": "#A6D189",
+            "name": "catppuccin-frappe",
+            "purple": "#F4B8E4",
+            "red": "#E78284",
+            "selectionBackground": "#626880",
+            "white": "#B5BFE2",
+            "yellow": "#E5C890"
+        }
+    ],
+    "theme": "light",
+    "themes": [],
+    "useAcrylicInTabRow": true
+}
